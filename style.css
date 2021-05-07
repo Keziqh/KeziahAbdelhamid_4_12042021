@@ -31,7 +31,7 @@ a:hover {
   width: 100%;
   clear: both;
   background: 50% 50% no-repeat;
-  padding: 0 20px;
+  padding: 0 20%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -713,6 +713,7 @@ p {
   padding: 12px 28px 12px 28px;
   font-size: 16px;
   font-weight: 700;
+  border-radius: 5rem;
 }
 
 .social {
@@ -906,6 +907,20 @@ h4 {
 }
 
 @media (max-width: 767px) {
+  .rowpage2 {
+    padding: 0px 15%;
+  }
+  .contactpage2 {
+    text-align: center;
+  }
+  .navbarflexpage2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerpage2 {
+    display: flex;
+    justify-content: center;
+  }
   .page-container {
     overflow-x: hidden;
     position: relative;
@@ -1033,7 +1048,7 @@ h4 {
     margin-top: 30px;
   }
   form {
-    padding: 5px;
+    padding: 0px 15vw;
   }
   .close-lightbox {
     display: inline-block;
@@ -1081,4 +1096,8 @@ h4 {
 }
 .row textarea {
   border-bottom: 2px solid #f3976c;
+  max-width: 151px;
+}
+.acceuilpage2 {
+  text-decoration: none;
 }
