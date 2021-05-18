@@ -612,18 +612,18 @@ p {
   margin: auto auto auto auto;
 }
 .socialtext {
-  color: white;
+  color: #fff;
   display: inline;
   display: flex;
   align-items: center;
   margin: 10px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .contact__icon {
   padding: 7px;
 }
 .textfooter {
-  font-weight: bold;
+  font-weight: 700;
 }
 h2 {
   font-size: 28px;
